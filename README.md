@@ -1,4 +1,6 @@
 # Random Walk Simulation Using D3.js
+![dice_4](https://github.com/user-attachments/assets/43f059da-b9f3-4182-9d62-54bed3b8f9d4)
+
 ### Project Description:
 This project simulates a random walk in a 2D plane, inspired by the behavior of a 4-faced die. The simulation randomly chooses one of four possible directions (up, down, left, or right) in each step, and tracks the path of the movement over a series of 1000 steps. The path is visualized on an interactive graph using D3.js, a powerful JavaScript library for data visualization.
 
