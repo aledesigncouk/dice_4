@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* reset */
+body {
+    margin: 20px 0;
+    padding: 0;
+    background: #000;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+}
+
+.intro {
+    position: fixed;
+    float: left;
+    color: #fff;
+    width: 300px;
+    height: 100vh;
+}
+
+#d-3 {
+    display: contents;
+}
+
+#chart {
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+svg {
+    overflow: visible;
+}
+
+circle {
+    stroke: none;
+    fill: #fff;
+}
+
+.line {
+    /* stroke: steelblue; */
+    stroke: red;
+    stroke-width: 0.5;
+    fill: none;
+}
+
+.reload {
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+}
+
+.reload:hover {
+    color: #000;
+    background: #fff;
+}
