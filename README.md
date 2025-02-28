@@ -13,14 +13,19 @@ The simulation represents the random walk as a sequence of points that are plott
 
 The outcome of each roll determines the movement of the "walker," with the current position updated accordingly. As a result, the path of the walk is a random sequence of movements that form a continuous trajectory across the graph.
 
-#### Key Features:
+### Key Features:
 **Random Walk Simulation:** The movement follows a random process similar to rolling a 4-sided die, where each roll randomly dictates the direction of movement on a 2D plane.
+
 **Data Generation:** The code generates 1000 random steps, and each step results in a change of coordinates (x, y) based on one of the four directions.
+
 **Interactive Graph:** Using D3.js, the project visualizes the random walk as a series of points (circles) connected by a path. This creates an interactive visualization that helps to understand the behavior of a random walk.
+
 **Dynamic Axis Scaling:** The graph dynamically scales the x and y axes to fit the values generated during the random walk, ensuring that the entire path is visible within the SVG canvas.
 
-#### Technologies Used:
+### Technologies Used:
+
 **D3.js:** A JavaScript library used to bind data to a document and create dynamic, interactive visualizations in the browser.
+
 **JavaScript:** The programming language used to implement the simulation logic and data generation.**
 HTML/CSS:** Basic web technologies used to structure and style the page.
 
@@ -36,7 +41,9 @@ This project aims to demonstrate how to visualize a random walk using D3.js whil
 
 ### Potential Use Cases:
 **Educational Tool:** Teaching the concept of random processes and random walks in mathematics or physics.
+
 **Simulation Visualization:** Providing insights into the behavior of random systems and stochastic processes.
+
 **Data Science & Probability:** Analyzing how random data behaves over time and visually representing uncertainty.
 
 ### How to Run:
