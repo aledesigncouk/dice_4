@@ -43,7 +43,8 @@ This project aims to demonstrate how to visualize a random walk using D3.js whil
 Download or clone the repository.
 Open the HTML file in a modern web browser.
 The graph will automatically load and display the simulation of the random walk.
-Future Improvements:
+
+**Future Improvements:**
 Add user interaction to control the number of steps in the random walk.
 Customize the movement directions or add weights to different directions.
 Allow the user to restart the random walk or change the visualization parameters dynamically.
