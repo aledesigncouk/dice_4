@@ -4,18 +4,18 @@ This project simulates a random walk in a 2D plane, inspired by the behavior of 
 
 The simulation represents the random walk as a sequence of points that are plotted on a Cartesian coordinate system. Each step of the random walk is determined by the outcome of a simulated 4-sided die roll, with the possible moves being:
 
-**Up** (increasing the y coordinate)
-**Down** (decreasing the y coordinate)
-**Left** (decreasing the x coordinate)
-**Right** (increasing the x coordinate)
+- **Up** (increasing the y coordinate)
+- **Down** (decreasing the y coordinate)
+- **Left** (decreasing the x coordinate)
+- **Right** (increasing the x coordinate)
 
 The outcome of each roll determines the movement of the "walker," with the current position updated accordingly. As a result, the path of the walk is a random sequence of movements that form a continuous trajectory across the graph.
 
 #### Key Features:
-Random Walk Simulation: The movement follows a random process similar to rolling a 4-sided die, where each roll randomly dictates the direction of movement on a 2D plane.
-Data Generation: The code generates 1000 random steps, and each step results in a change of coordinates (x, y) based on one of the four directions.
-Interactive Graph: Using D3.js, the project visualizes the random walk as a series of points (circles) connected by a path. This creates an interactive visualization that helps to understand the behavior of a random walk.
-Dynamic Axis Scaling: The graph dynamically scales the x and y axes to fit the values generated during the random walk, ensuring that the entire path is visible within the SVG canvas.
+**Random Walk Simulation:** The movement follows a random process similar to rolling a 4-sided die, where each roll randomly dictates the direction of movement on a 2D plane.
+**Data Generation:** The code generates 1000 random steps, and each step results in a change of coordinates (x, y) based on one of the four directions.
+**Interactive Graph:** Using D3.js, the project visualizes the random walk as a series of points (circles) connected by a path. This creates an interactive visualization that helps to understand the behavior of a random walk.
+**Dynamic Axis Scaling:** The graph dynamically scales the x and y axes to fit the values generated during the random walk, ensuring that the entire path is visible within the SVG canvas.
 
 #### Technologies Used:
 **D3.js:** A JavaScript library used to bind data to a document and create dynamic, interactive visualizations in the browser.
